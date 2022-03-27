@@ -1,0 +1,42 @@
+nav {
+    background: map-get($colours, secondary);
+    padding: 20px;
+
+    ul {
+        margin-left: auto; 
+    }
+    
+    .nav__link {
+        color: map-get($colours, "grey");
+        padding-right: 10px;
+        text-decoration: none;
+        font-size: 15px;
+        font-family: 'Archivo Narrow', sans-serif;
+    }
+
+    li {
+        margin-bottom: 10px;
+    }
+
+    .li__a--active {
+        color: map-get($colours, details);
+    }
+
+    .navbar-toggler-icon {
+        color: map-get($colours, dark);
+    }
+
+    a {
+        float: left;
+    }
+
+    .navbar-brand {
+        font-size: 36px;
+        font-family: 'Open Sans', sans-serif;
+        color: map-get($colours, dark);
+    }
+}
+
+.navbar-light button {
+    border: none;
+}

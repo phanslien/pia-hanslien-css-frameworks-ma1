@@ -1,0 +1,101 @@
+nav {
+  background: #F4F3EE;
+  padding: 20px;
+}
+nav ul {
+  margin-left: auto;
+}
+nav .nav__link {
+  color: #8D8D8D;
+  padding-right: 10px;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "Archivo Narrow", sans-serif;
+}
+nav li {
+  margin-bottom: 10px;
+}
+nav .li__a--active {
+  color: #C32C72;
+}
+nav .navbar-toggler-icon {
+  color: #463F3A;
+}
+nav a {
+  float: left;
+}
+nav .navbar-brand {
+  font-size: 36px;
+  font-family: "Open Sans", sans-serif;
+  color: #463F3A;
+}
+
+.navbar-light button {
+  border: none;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: #E5E5E5;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  padding: 30px;
+  font-size: 34px;
+  font-family: "Open Sans", sans-serif;
+  color: #463F3A;
+}
+
+footer {
+  flex-shrink: 0;
+  justify-content: space-between;
+  background: #F4F3EE;
+  margin-top: 2rem;
+  font-size: 0.8em;
+  color: #8D8D8D;
+  padding: 2em;
+}
+footer p {
+  font-size: 12px;
+  font-family: "Archivo Narrow", sans-serif;
+  padding: 0 5px;
+}
+
+.wrapper {
+  flex: 1 0 auto;
+}
+
+.p-3 {
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10%;
+}
+
+.col__box {
+  background: #F4F3EE;
+}
+
+.col__box--frame {
+  background: white;
+  border: 2px solid #C32C72;
+}
+
+.col__box--fill {
+  background: #C32C72;
+}
+
+@media only screen and (min-width: 1000px) {
+  footer {
+    display: flex;
+  }
+}/*# sourceMappingURL=styles.css.map */
